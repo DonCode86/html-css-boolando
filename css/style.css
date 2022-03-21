@@ -12,18 +12,18 @@ body {
 }
 
 h1 {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: lighter;
 }
 
 .dress-descrition {
-    margin-top: 15px;
-    line-height: 20px;
+    margin-top: 10px;
+    line-height: 100%;
 }
 .clearfix::after {
     content: "";
@@ -87,13 +87,16 @@ h4 {
 }
 
 .price {
-    font-weight: 800;
     color: red;
+    font-weight: 800;
 }
 
 .disc-price {
     text-decoration: line-through;
-    font-weight: 700;
+}
+
+.price, .disc-price {
+    font-size: 14px;
 }
 
 .product:hover .product-wishlist {
@@ -110,4 +113,8 @@ h4 {
 
 .product:hover .product-img-2 {
     display: block;
+}
+
+.product:hover .product-symbol {
+    color: red;
 }
