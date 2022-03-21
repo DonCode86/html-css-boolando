@@ -69,6 +69,12 @@ h4 {
     background-color: green;
 }
 
+.discount-attribute-2 {
+    position: absolute;
+    left: 0px;
+    background-color: green;
+}
+
 [class*="discount"] {
     height: 30px;
     line-height: 30px;
@@ -78,13 +84,13 @@ h4 {
     padding-left: 10px;
     position: absolute;
     bottom: 20px;
-
 }
 
 .price {
     font-weight: 800;
     color: red;
 }
+
 .disc-price {
     text-decoration: line-through;
     font-weight: 700;
@@ -101,6 +107,7 @@ h4 {
 .product:hover .product-img-1 {
     display: none;
 }
+
 .product:hover .product-img-2 {
     display: block;
 }
