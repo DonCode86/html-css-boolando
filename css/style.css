@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: Helvetica, sans-serif;
 }
+
 .container {
     max-width: 1200px;
     margin: 30px auto;
@@ -21,10 +23,6 @@ h4 {
     font-weight: lighter;
 }
 
-.dress-descrition {
-    margin-top: 10px;
-    line-height: 100%;
-}
 .clearfix::after {
     content: "";
     display: table;
@@ -37,6 +35,11 @@ h4 {
     margin: 0 4px;
 }
 
+.dress-descrition {
+    margin-top: 10px;
+    line-height: 100%;
+}
+
 .product {
     position: relative;
 }
@@ -45,6 +48,7 @@ h4 {
     width: 100%;
     display: block;
 }
+
 .product-symbol {
     width: 30px;
     height: 30px;
